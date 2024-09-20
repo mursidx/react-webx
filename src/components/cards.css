@@ -1,0 +1,17 @@
+.fcard {
+    transition: background-color 0.5s ease,
+     padding-left 0.5s ease;
+}
+
+.fcard:hover {
+    background-color: #333337;
+    padding-left: 30px;
+}
+
+.scard {
+    transition: background-color 0.5s ease;
+}
+
+.scard:hover {
+    background-color: #8559ff6a;
+}

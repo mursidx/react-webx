@@ -1,0 +1,29 @@
+/* Button.css */
+
+@keyframes slideFade {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Default state with no animation */
+  .text-sm,
+  .react-icon {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  /* Apply animation on hover */
+  .group:hover .text-sm,
+  .group:hover .react-icon {
+    animation: slideFade 0.5s ease-in-out;
+  }
+  
